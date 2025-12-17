@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/* @theme {
+    --color-primary: #ff5733;
+    --font-main: "Roboto", sans-serif;
+  } */
+   body{
+    display:block;
+   }
