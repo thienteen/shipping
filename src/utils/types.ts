@@ -10,7 +10,7 @@ export interface Customer {
   name: string;
   phone: string;
 }
-export interface Item {
+export interface ItemOrder {
   id: string;
   name: string;
   variant?: string;
@@ -21,7 +21,7 @@ export interface Item {
 export interface Order {
   id: string;
   customer: Customer;
-  item: Item;
+  item: ItemOrder;
   shippingCode: string;
   shippingStatus: ShippingStatus;
   orderStatus: OrderStatus;

@@ -1,4 +1,3 @@
-import React from "react";
 import type { Order } from "../utils/types";
 import StatusBadge from "./StatusBadge";
 interface OrderCardProps {

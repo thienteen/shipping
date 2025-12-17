@@ -1,3 +1,5 @@
+import type { Order } from "./types";
+
 export const MOCK_ORDERS: Order[] = [
   {
     id: "ORD-2025001",
